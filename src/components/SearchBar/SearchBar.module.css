@@ -1,0 +1,35 @@
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to right, #283048, #859398);
+}
+
+.form {
+  position: relative;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 0;
+}
+
+.btn:focus {
+  outline: transparent;
+}
+.input {
+  padding: 10px 20px 10px 40px;
+  border-radius: 10px;
+  border: 1px grey solid;
+}
+
+.input:focus {
+  outline: transparent;
+  border-color: #a3a9ac;
+}
